@@ -1,0 +1,31 @@
+body:
+  - type: inputWithFileBtn
+    attributes:
+      name: positron_path
+      label: "Positron executable"
+      defaultValue: ""
+      description: "Path to Positron.exe. Leave empty to auto-detect (Program Files, %LOCALAPPDATA%\\Programs, PATH)."
+  - type: input
+    attributes:
+      name: projects_location
+      label: "Projects location"
+      defaultValue: ""
+      description: "Folder containing projects.json. Only set this if you changed projectManager.projectsLocation and auto-detection fails."
+  - type: checkbox
+    attributes:
+      name: include_recent
+      label: "Include recently opened folders"
+      defaultValue: "true"
+      description: "Also list folders/workspaces Positron has opened that are not saved in Project Manager."
+  - type: checkbox
+    attributes:
+      name: include_detected
+      label: "Include auto-detected projects"
+      defaultValue: "true"
+      description: "Also list projects Project Manager auto-detected (Git, VS Code, Any) if you have those enabled."
+  - type: checkbox
+    attributes:
+      name: hide_disabled
+      label: "Hide disabled projects"
+      defaultValue: "false"
+      description: "Hide saved projects whose 'enabled' flag is false."

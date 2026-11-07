@@ -1,0 +1,12 @@
+{
+  "ID": "5b7c2f3e-8d1a-4e6b-9c2f-0a7e4d3b1f68",
+  "ActionKeyword": "pp",
+  "Name": "Positron Projects",
+  "Description": "Search and open Positron projects (Project Manager extension + recently opened folders)",
+  "Author": "simonjukl",
+  "Version": "1.0.0",
+  "Language": "python",
+  "Website": "https://github.com/simonjukl",
+  "IcoPath": "Images\\positron.png",
+  "ExecuteFileName": "main.py"
+}
