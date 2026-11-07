@@ -73,7 +73,7 @@ def read_jsonc(path):
     with open(path, encoding="utf-8-sig") as f:
         text = f.read()
     # Strip // and /* */ comments that are outside of strings, then trailing commas.
-    pattern = re.compile(r'("(?:\\.|[^"\\])*")|//[^\n]*|/\*.*?\*/', re.S)
+    pattern = re.compile(r'("(?:\\.|[^"\\])*")|//[^\n]*|/\*.*?\*/', re.DOTALL)
     text = pattern.sub(lambda m: m.group(1) or "", text)
     text = re.sub(r",(\s*[}\]])", r"\1", text)
     return json.loads(text)
