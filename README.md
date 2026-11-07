@@ -37,3 +37,8 @@ The plugin uses only the Python standard library, so Flow's bundled Python is en
 | Include recently opened folders | on | |
 | Include auto-detected projects | on | |
 | Hide disabled projects | off | Hides saved projects whose `enabled` is `false` |
+
+## License
+
+[MIT](LICENSE). `Images/copy.png` and `Images/folder.png` come from [Flow Launcher](https://github.com/Flow-Launcher/Flow.Launcher) (MIT).
+The Positron logo is a trademark of Posit Software, PBC. This plugin is not affiliated with Posit.

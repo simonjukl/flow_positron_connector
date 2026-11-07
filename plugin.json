@@ -6,7 +6,7 @@
   "Author": "simonjukl",
   "Version": "1.0.0",
   "Language": "python",
-  "Website": "https://github.com/simonjukl",
+  "Website": "https://github.com/simonjukl/flow_positron_connector",
   "IcoPath": "Images\\positron.png",
   "ExecuteFileName": "main.py"
 }
